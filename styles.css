@@ -1,0 +1,37 @@
+html{
+   width: 600px;
+   margin: auto;
+   background color: black;
+   position: center;
+   font-family: verdana;}
+
+body {
+   background-color:PeachPuff;
+   padding: 10px;}
+h1{
+   color: hotpink;
+   border-bottom: solid 2px;
+   text-align: center;}
+p{
+   color: steelblue;}
+
+p.caption {
+   font-size: 13px;
+   font-varient:small-caps;}
+
+img{
+   border-radius: 8px;
+   border: solid 3px white;
+   padding: 5px;
+}
+
+.card {
+        width: 273px;
+        height: 185px;
+        background: url("theoffice.jpeg") no-repeat;
+        margin: 50px;
+    }
+
+.card:hover {
+        background: url("dwight.jpeg") no-repeat;
+    }
